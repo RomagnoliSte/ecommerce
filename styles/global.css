@@ -1,0 +1,19 @@
+:root{
+
+     /*CORES*/
+    --color-white: #FFFFFF; 
+    --color-green: #B0CB1F; 
+    --color-black: #000000; 
+    --color-green-2: rgba(176, 203, 31, 0.1);
+    --color-grey: #191C1F;
+    --color-grey-ligth: #5F6C72;
+    --color-blue: #2DA5F3;
+
+    --font-size-h1: 16px;
+    --font-size-h2: 25px;
+    --font-size-body: 16px;
+    --font-size-caption: 14px;
+
+    --font-family-primary:"Inter", sans-serif;
+
+}
