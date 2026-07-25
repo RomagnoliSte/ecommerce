@@ -1,76 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <img src="assets/images/logo.svg" alt="icone do E-commerce">
+      <img src="assets/images/logo.svg" alt="icone do E-commerce" />
 
-        <div class="navigation-header">  
+      <div class="navigation-header">
+        <a href="">Home</a>
+        <a href="">Produtos</a>
+        <a href="">Sobre nós</a>
+        <a href="">Contato</a>
+      </div>
+
+      <nav class="button-login"><a href=""> Login </a></nav>
+    </header>
+
+    <main>
+      <img
+        src="assets/images/Product.svg"
+        alt="imagem do produto em destaque"
+      />
+
+      <div class="container-product">
+        <div class="avaliacoes">
+          <div>
+            <img src="assets/images/star.svg" alt="Avaliacao" />
+            <img src="assets/images/star.svg" alt="Avaliacao" />
+            <img src="assets/images/star.svg" alt="Avaliacao" />
+            <img src="assets/images/star.svg" alt="Avaliacao" />
+            <img src="assets/images/star.svg" alt="Avaliacao" />
+          </div>
+          <p>5.0 Estrelas</p>
+          <span>(21.671 avaliações)</span>
+        </div>
+
+        <h1>
+          2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD
+          Storage) - Space Gray
+        </h1>
+
+        <div class="valores">
+          <h2>R$5.299,00</h2>
+          <span>R$7.000,00</span>
+          <p>24,3% OFF</p>
+        </div>
+
+        <div class="cores">
+          <button
+            class="cor selecionada"
+            style="--cor: #b1b5b8"
+            data-cor="Cinza"
+            aria-label="Cinza"
+          ></button>
+
+          <button
+            class="cor"
+            style="--cor: #e0e1e1"
+            data-cor="Prata"
+            aria-label="Prata"
+          ></button>
+        </div>
+
+        <nav class="button-add-carrinho">
+          <a href=""> Adicionar no carrinho </a>
+        </nav>
+      </div>
+    </main>
+
+    <section class="formulario">
+      <h3>Informações</h3>
+
+      <div class="dados-formulario">
+        <div class="row-1">
+          <div class="group">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="group">
+            <label for="nome">CPF:</label>
+            <input type="text" id="CPF" name="nome" />
+          </div>
+          <div class="group">
+            <label for="nome">CEP:</label>
+            <input type="text" id="CEP" name="nome" />
+          </div>
+        </div>
+
+        <div class="row-1">
+          <div class="group">
+            <label for="nome">Rua:</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="group">
+            <label for="nome">Número:</label>
+            <input type="text" id="CPF" name="nome" />
+          </div>
+          <div class="group">
+            <label for="nome">Complemento:</label>
+            <input type="text" id="CEP" name="nome" />
+          </div>
+        </div>
+
+        <div class="row-1">
+          <div class="group">
+            <label for="nome">Estado:</label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="group">
+            <label for="nome">Bairro:</label>
+            <input type="text" id="CPF" name="nome" />
+          </div>
+        </div>
+
+        <nav class="button-enviar-form">Enviar</nav>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-social-media">
+        <img
+          class="logo-footer"
+          src="assets/images/logo.svg"
+          alt="icone do E-commerce"
+        />
+
+        <div class="dados-footer">
+          <p>Copyright © 2025 E-Commerce ltd.</p>
+          <p>All rights reserved</p>
+        </div>
+
+        <nav class="redes">
+          <a class="rede-social" href="https://www.instagram.com/">
+            <img src="assets/images/insta.svg" alt="logo do instagram" />
+          </a>
+          <a class="rede-social" href="https://dribbble.com/">
+            <img src="assets/images/dribble.svg" alt="logo do driblle" />
+          </a>
+          <a class="rede-social" href="https://x.com/?lang=pt">
+            <img src="assets/images/twitter.svg" alt="logo fo twitter / x" />
+          </a>
+          <a class="rede-social" href="https://www.youtube.com/">
+            <img src="assets/images/youtube.svg" alt="logo do youtube" />
+          </a>
+        </nav>
+      </div>
+
+      <div class="footer-menu">
+        <div class="menu">
+          <h4>Menu alternativo</h4>
+
+          <nav>
             <a href="">Home</a>
             <a href="">Produtos</a>
             <a href="">Sobre nós</a>
             <a href="">Contato</a>
+          </nav>
         </div>
 
-        <nav class="button-login"> <a href=""> Login </a></nav>
+        <div class="menu">
+          <h4>Contato</h4>
 
-    </header>
-
-    <main>
-        <img src="assets/images/Product.svg" alt="imagem do produto em destaque">
-        
-        <div class="container-product">
-            
-            <div class="avaliacoes">
-                <div>
-                    <img src="assets/images/star.svg" alt="Avaliacao">
-                    <img src="assets/images/star.svg" alt="Avaliacao">
-                    <img src="assets/images/star.svg" alt="Avaliacao">
-                    <img src="assets/images/star.svg" alt="Avaliacao">
-                    <img src="assets/images/star.svg" alt="Avaliacao">
-                </div>
-                <p>5.0 Estrelas</p>
-                <span>(21.671 avaliações)</span>
-            </div>
-
-            <h1>2020 Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray</h1>
-            
-            <div class="valores">
-                <h2>R$5.299,00</h2>
-                <span>R$7.000,00</span>
-                <p>24,3% OFF</p>
-            </div>
-
-            <div class="cores">
-                <p>Cor</p>
-
-                <div class="container-cores">
-                    <div class="cor selecionada">
-                        <div class="circulo"></div>
-                    </div>
-
-                    <div class="cor">
-                        <div class="circulo claro"></div>
-                </div>
-                </div>
-            </div>
-            <nav></nav>
-
+          <nav>
+            <a href="">(11) 99585-5858</a>
+            <a href="">(11) 99868-5889</a>
+            <a href="">(11) 3535-3535</a>
+          </nav>
         </div>
-    </main>
-    
-</body>
+
+        <div class="menu">
+          <h4>Endereço</h4>
+
+          <nav>
+            <a href="">2972 Westheimer </a>
+            <a href="">Rd. Santa Ana</a>
+            <a href="">Illinois 85486 </a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
