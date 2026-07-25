@@ -213,6 +213,7 @@ footer {
   border-radius: 15px 3px;
   transition: 0.3 ease;
   width: 107px;
+  border: none;
 }
 
 .button-enviar-form:hover {
